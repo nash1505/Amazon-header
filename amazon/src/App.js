@@ -10,7 +10,7 @@ import { Container, Header } from 'semantic-ui-react';
 function App() {
   return (
     <div>
-    
+    <h1>Hello world</h1>
 
       <Upper/>
     </div>
