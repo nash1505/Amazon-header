@@ -81,7 +81,24 @@ function Upper() {
                     </div>
 
                 </div>
+
             </div>
+            <div class="ui segment" className="nav-bar">
+
+                <div class="ui inverted secondary menu" >
+                    <a class="item"><i class="bars icon"></i>All</a>
+                    <a class="item">Best Sellers</a>
+                    <a class="item">Mobiles</a>
+                    <a class="item">Today's Deals</a>
+                    <a class="item">Fashion</a>
+                    <a class="item">New Releases</a>
+                    <a class="item">Prime<i class="dropdown icon"></i></a>
+                    <a class="item">Electronics</a>
+                    <a class="item">Customer Service</a>
+                </div>
+            </div>
+
+
         </div>
     )
 }
