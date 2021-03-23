@@ -96,8 +96,8 @@ function Upper() {
                     <a class="item">Electronics</a>
                     <a class="item">Customer Service</a>
                 </div>
-            </div>
 
+            </div>
 
         </div>
     )
