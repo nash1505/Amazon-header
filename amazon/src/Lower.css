@@ -7,6 +7,28 @@
     padding-top: 20px;
     font-size: 15px;
 }
-/* .list-container{
-    background-color: ;
-} */
+.footer{
+    color: white;
+    background-color: #232F3E;
+    font-size: large;
+    
+}
+.item {
+    margin-left: 10vmin;
+    margin-top: 1vmin;
+}
+.item a{
+    color: white;
+}
+.item a:hover{
+    color: white;
+}
+
+.d1{
+    background: #232F3E;
+    color:white;
+    width: 30vmin;
+    text-align: right;
+    margin-top: 10px;
+    
+}
