@@ -10,7 +10,7 @@
 .footer{
     color: white;
     background-color: #232F3E;
-    font-size: large;
+    /* font-size: large; */
     
 }
 .item {
@@ -30,5 +30,33 @@
     width: 30vmin;
     text-align: right;
     margin-top: 10px;
+    
+}
+.country{
+    text-align: center;
+}
+.country a{
+    
+    margin: 12px;
+    padding: 0px;
+ /* font-size: small; */
+ color: white;
+}
+.footer-continued{
+    color: white;
+    background-color: #131A22;
+}
+.footer-continued_1 a{
+    text-decoration: none;
+    margin-left: 10px;
+}
+.footer-continued_1{
+    
+    color: white;
+    background-color: #131A22;
+}
+.footer-continued a{
+    text-decoration: none;
+    color: white;
     
 }

@@ -15,7 +15,7 @@ function Lower() {
                 <div class="row footer">
                     <div class="four wide column">
                         <div class="ui list">
-                            <div class="item"><a href="#">Get To Know Us</a></div>
+                            <div class="item"><a href="#"><b>Get To Know Us</b></a></div>
                             <div class="item"><a href="#">About Us</a></div>
                             <div class="item"><a href="#">Careers</a></div>
                             <div class="item"><a href="#">Press Releases</a></div>
@@ -25,7 +25,7 @@ function Lower() {
                     </div>
                     <div class="four wide column">
                         <div class="ui list">
-                            <div class="item"><a href="#">Connect With Us</a></div>
+                            <div class="item"><a href="#"><b>Connect With Us</b></a></div>
                             <div class="item"><a href="#">Facebook</a></div>
                             <div class="item"><a href="#">Twitter</a></div>
                             <div class="item"><a href="#">Instagram</a></div>
@@ -33,7 +33,7 @@ function Lower() {
                     </div>
                     <div class="four wide column">
                         <div class="ui list">
-                            <div class="item"><a href="#">Make Money with Us</a></div>
+                            <div class="item"><a href="#"><b>Make Money with Us</b></a></div>
                             <div class="item"><a href="#">Sell on Amazon</a></div>
                             <div class="item"><a href="#">Sell Under Amazon Accelerator</a></div>
                             <div class="item"><a href="#">Amazon Global Selling</a></div>
@@ -46,7 +46,7 @@ function Lower() {
                     </div>
                     <div class="four wide column">
                         <div class="ui list">
-                            <div class="item"><a href="#">Let us Help you</a></div>
+                            <div class="item"><a href="#"><b>Let us Help you</b></a></div>
                             <div class="item"><a href="#">COVID-19 and Amazon</a></div>
                             <div class="item"><a href="#">Your Account</a></div>
                             <div class="item"><a href="#">Returns Center</a></div>
@@ -59,17 +59,39 @@ function Lower() {
                         <div class="four column centered row">
                             <div class="column"> <img class="ui small image" src={logo} alt="logo" /></div>
                             <div class="column" >
-                           
+
                                 <select class="ui selection dropdown" className="d1">
-                                
-                                    <option value=""> <i class="globe icon"></i>English</option>
+
+                                    <option value=""> English</option>
                                     <option value="0">Hindi</option>
                                     <option value="1">French</option>
                                     <option value="2">Italian</option>
                                     <option value="3">Arabic</option>
-                                    
+
                                 </select>
                             </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="sixteen wide column row "  >
+                        <div class="ui celled horizontal centered list" className="country">
+                            <a class="item">Australia</a>
+                            <a class="item">Brazil</a>
+                            <a class="item">Canada</a>
+                            <a class="item">China</a>
+                            <a class="item">France</a>
+                            <a class="item">Germany</a>
+                            <a class="item">Italy</a>
+                            <a class="item">Japan</a>
+                            <a class="item">Mexico</a>
+                            <a class="item">Netherlands</a>
+                            <a class="item">Singapore</a>
+                            <a class="item">Spain</a>
+                            <a class="item">UAE</a>
+                            <a class="item">USA</a>
+                            <a class="item">UK</a>
                         </div>
                     </div>
 
@@ -77,7 +99,67 @@ function Lower() {
 
                 </div>
 
+                <div class="row footer-continued" >
+                    <div class="four wide column">
+                        <div class="ui list">
+                            <div class="item">
+                                <a class="header" href="#">AbeBooks
+                                <div class="description">
+                                        Books,art<p>& collectibles</p></div></a>
+                            </div>
+                            <div class="item">
+                                <a class="header" href="#">Shopbop
+                                <div class="description">
+                                        Designer<p>Fashion Brands</p></div></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="four wide column"><div class="ui list">
+                        <div class="item">
+                            <a class="header" href="#">Amazon Web Services
+                                <div class="description">
+                                    Scalable Cloud<p>Computing Services</p></div></a>
+                        </div>
+                        <div class="item">
+                            <a class="header" href="#">Amazon Buisness
+                                <div class="description">
+                                    Everything For <p>Your Buisness</p></div></a>
+                        </div>
+                    </div></div>
+                    <div class="four wide column"><div class="ui list">
+                        <div class="item">
+                            <a class="header" href="#">Audible
+                                <div class="description">
+                                    Download<p>Audio Books</p></div></a>
+                        </div>
+                        <div class="item">
+                            <a class="header" href="#">Prime Now
+                                <div class="description">
+                                    2-Hour Delivery<p>on Everyday Items</p></div></a>
+                        </div>
+                    </div></div>
+                    <div class="four wide column"><div class="ui list">
+                        <div class="item">
+                            <a class="header" href="#">DPReview
+                                <div class="description">
+                                    Digital<p>Photography</p></div></a>
+                        </div>
+                        <div class="item">
+                            <a class="header" href="#">Amazon Prime Music
+                                <div class="description">
+                                    70 million songs,ad-free</div></a>
+                        </div>
+                    </div></div>
+                </div>
 
+                <div class="sixteen wide column row footer-continued_1">
+                    <div class="ui celled horizontal centered list">
+                        <a class="item" href="#">Conditions of Use & sale</a>
+                        <a class="item" href="#">Privacy Notice</a>
+                        <a class="item" href="#">Interest-Based Ads</a>
+                        <a class="item" href="#">1996-2021,Amazon.com,Inc. or its affilates</a>
+                    </div>
+                </div>
 
             </div>
         </div>
