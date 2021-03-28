@@ -49,13 +49,14 @@ function Upper() {
 
 
                     <div class="one wide column" className="flag">
-                        <div class="ui compact selection dropdown">
+                        <div class="ui dropdown">
+                            
+                            <div class="text"><i class="in flag"></i></div>
                             <i class="dropdown icon"></i>
-                            <div class="text">Compact</div>
                             <div class="menu">
-                                <div class="item">A</div>
-                                <div class="item">B</div>
-                                <div class="item">C</div>
+                                <div class="item"><i class="in flag"></i></div>
+                                <div class="item"><i class="in flag"></i></div>
+                                <div class="item"><i class="in flag"></i></div>
                             </div>
                         </div>
                     </div>

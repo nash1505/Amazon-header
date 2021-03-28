@@ -54,10 +54,15 @@ function Lower() {
                             <div class="item"><a href="#">Amazon App Download</a></div>
                         </div>
                     </div>
-                    <div class="ui divider"></div>
-                    <div class="ui two column centered grid footer-continue">
+                   
+
+                    <div class="ui two column centered grid ">
+
+                    
                         <div class="four column centered row">
-                            <div class="column"> <img class="ui small image" src={logo} alt="logo" /></div>
+                            <div class="column"> 
+                            <img src={logo} alt="logo" />
+                            </div>
                             <div class="column" >
 
                                 <select class="ui selection dropdown" className="d1">
@@ -98,62 +103,63 @@ function Lower() {
 
 
                 </div>
+                
 
-                <div class="row footer-continued" >
+                <div class="row centered footer-continued" >
                     <div class="four wide column">
-                        <div class="ui list">
+                        <div class="ui list" >
                             <div class="item">
-                                <a class="header" href="#">AbeBooks
-                                <div class="description">
+                                <a class="item" href="#">AbeBooks
+                                <div class="item">
                                         Books,art<p>& collectibles</p></div></a>
                             </div>
                             <div class="item">
-                                <a class="header" href="#">Shopbop
-                                <div class="description">
+                                <a class="item" href="#">Shopbop
+                                <div class="item">
                                         Designer<p>Fashion Brands</p></div></a>
                             </div>
                         </div>
                     </div>
                     <div class="four wide column"><div class="ui list">
                         <div class="item">
-                            <a class="header" href="#">Amazon Web Services
-                                <div class="description">
+                            <a class="item" href="#">Amazon Web Services
+                                <div class="item">
                                     Scalable Cloud<p>Computing Services</p></div></a>
                         </div>
                         <div class="item">
-                            <a class="header" href="#">Amazon Buisness
-                                <div class="description">
+                            <a class="item" href="#">Amazon Buisness
+                                <div class="item">
                                     Everything For <p>Your Buisness</p></div></a>
                         </div>
                     </div></div>
                     <div class="four wide column"><div class="ui list">
                         <div class="item">
-                            <a class="header" href="#">Audible
-                                <div class="description">
+                            <a class="item" href="#">Audible
+                                <div class="item">
                                     Download<p>Audio Books</p></div></a>
                         </div>
                         <div class="item">
-                            <a class="header" href="#">Prime Now
-                                <div class="description">
+                            <a class="item" href="#">Prime Now
+                                <div class="item">
                                     2-Hour Delivery<p>on Everyday Items</p></div></a>
                         </div>
                     </div></div>
                     <div class="four wide column"><div class="ui list">
                         <div class="item">
-                            <a class="header" href="#">DPReview
-                                <div class="description">
+                            <a class="item" href="#">DPReview
+                                <div class="item">
                                     Digital<p>Photography</p></div></a>
                         </div>
                         <div class="item">
-                            <a class="header" href="#">Amazon Prime Music
-                                <div class="description">
+                            <a class="item" href="#">Amazon Prime Music
+                                <div class="item">
                                     70 million songs,ad-free</div></a>
                         </div>
                     </div></div>
                 </div>
 
-                <div class="sixteen wide column row footer-continued_1">
-                    <div class="ui celled horizontal centered list">
+                <div class="row centered footer-continued_1">
+                    <div class="ui celled horizontal centered list" className="footer-continued_1">
                         <a class="item" href="#">Conditions of Use & sale</a>
                         <a class="item" href="#">Privacy Notice</a>
                         <a class="item" href="#">Interest-Based Ads</a>

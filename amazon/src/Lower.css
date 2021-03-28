@@ -45,18 +45,31 @@
 .footer-continued{
     color: white;
     background-color: #131A22;
-}
-.footer-continued_1 a{
-    text-decoration: none;
-    margin-left: 10px;
-}
-.footer-continued_1{
     
+}
+.footer-continue{
     color: white;
     background-color: #131A22;
 }
 .footer-continued a{
-    text-decoration: none;
-    color: white;
+    font-size: 12px;
+}
+.footer-continued a:hover{
+    text-decoration: underline;
+}
+
+.footer-continued_1{
+    background-color: #131A22;
+    /* color: white; */
     
+}
+.footer-continued_1 a{
+    color:white;
+}
+.footer-continued_1 a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.full{
+    width: 100%;
 }
